@@ -127,7 +127,7 @@ const Question = ({ imageSource, questionText, options, onAnswerChange }) => {
     );
 };
 
-const QuizApp = () => {
+const QuizAppL4 = () => {
     const [username, setUsername] = useState('');
     const [answers, setAnswers] = useState({ 1: '', 2: '', 3: '', 4: '', 5: '' });
     const correctAnswers = { 1: 'Bee', 2: 'Crocodile', 3: 'Deer', 4: 'Pride', 5: 'Owl' };
@@ -235,4 +235,4 @@ const QuizApp = () => {
     );
 };
 
-export default QuizApp;
+export default QuizAppL4;
